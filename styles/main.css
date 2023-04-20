@@ -1,0 +1,31 @@
+body {
+    background-image: url("../main_images/background_blur.webp");
+    background-attachment: fixed;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.navBar {
+    background-image: url("../main_images/background_blur_white.webp");
+    background-attachment: fixed;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.whiteText {
+    color: white;
+}
+
+.whiteText:hover {
+    color: white;
+    background-color: rgba(235, 235, 235, 0.164);
+}
+
+.whiteText:active {
+    color: white;
+    background-color: rgba(235, 235, 235, 0.164);
+}
+
+#navbarDropdown {
+    color: rgb(255, 255, 255);
+}
