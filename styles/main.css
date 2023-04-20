@@ -45,9 +45,9 @@ body {
 .newsCards {
     background-image: url("../main_images/background_blur_white.webp");
     background-attachment: fixed;
-    margin: 0;
     background-repeat: repeat;
     color: white;
+
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -56,9 +56,52 @@ body {
     background-image: url("../main_images/background_blur_white.webp");
     background-attachment: fixed;
     padding: 20px;
-    margin: 10px;
-    margin-top: 10%;
+    margin-top: 2%;
+    width: 50%;
     background-repeat: repeat;
     color: white;
     border-radius: 5px;
+    text-align: justify;
+}
+
+.noticeCarrousel {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.last_news_label {
+    margin-top: 40px;
+    color: white;
+    margin-left: 20%;
+    text-align: left
+}
+
+@media (max-width: 600px) {
+    .noticeCarrousel {
+        margin-top: 20px;
+        width: 90%;
+
+    }
+
+    .last_news_label {
+        margin-top: 40px;
+        color: white;
+        margin-left: 8%;
+        text-align: left
+    }
+
+    .newbox {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .newsCards {
+        background-image: url("../main_images/background_blur_white.webp");
+        background-attachment: fixed;
+        width: auto;
+        background-repeat: repeat;
+        color: white;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 }
