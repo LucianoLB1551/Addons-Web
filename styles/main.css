@@ -52,6 +52,17 @@ body {
     border-bottom-right-radius: 5px;
 }
 
+.addonsCards {
+    background-image: url("../main_images/background_blur_white.webp");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 350px;
+}
+
+
 .newbox {
     background-image: url("../main_images/background_blur_white.webp");
     background-attachment: fixed;
@@ -66,14 +77,63 @@ body {
 
 .noticeCarrousel {
     margin-top: 30px;
-    width: 60%;
+    width: 50%;
+}
+
+.addonsCarrousel {
+    margin-top: 30px;
+    width: 50%;
 }
 
 .last_news_label {
-    margin-top: 40px;
+    margin-top: 20px;
     color: white;
-    margin-left: 20%;
+    margin-left: 25%;
     text-align: left
+}
+
+.a5 {
+    margin-top: 30%;
+}
+
+.a4 {
+    margin-top: 13%;
+}
+
+.a3 {
+    margin-top: -4%;
+}
+
+.a2 {
+    margin-top: 22%;
+}
+
+.a1 {
+    margin-top: 13%;
+}
+
+.a0 {
+    margin-top: 30%;
+}
+
+
+.big_image {
+    width: 60%;
+}
+
+.small_image {
+    width: 30%;
+}
+
+.roundedImage,
+.lazyLoad {
+    border-radius: 5px;
+}
+
+.downloadBox {
+    box-shadow: 2px -1px 16px 7px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 2px -1px 16px 7px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 2px -1px 16px 7px rgba(0, 0, 0, 0.53);
 }
 
 @media (max-width: 600px) {
@@ -84,7 +144,7 @@ body {
     }
 
     .last_news_label {
-        margin-top: 40px;
+        margin-top: 20px;
         color: white;
         margin-left: 8%;
         text-align: left
@@ -104,4 +164,53 @@ body {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }
+
+    .a5 {
+        margin-top: 15%;
+    }
+
+    .a4 {
+        margin-top: 8%;
+    }
+
+    .a3 {
+        margin-top: 2%;
+    }
+
+    .a2 {
+        margin-top: 9%;
+    }
+
+    .a1 {
+        margin-top: 15%;
+    }
+
+    .a0 {
+        margin-top: 22%;
+    }
+
+    .addonsCarrousel {
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .big_image {
+        width: 90%;
+    }
+
+    .addonsCards {
+        background-image: url("../main_images/background_blur_white.webp");
+        background-attachment: fixed;
+        background-repeat: repeat;
+        color: white;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        height: min-content;
+    }
+
+    .small_image {
+        width: 50%;
+    }
+
+
 }
