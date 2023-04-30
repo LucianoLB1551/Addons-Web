@@ -214,3 +214,8 @@ body {
 
 
 }
+
+.bigVideo {
+    width: 100%;
+    height: auto;
+}
